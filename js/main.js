@@ -48,13 +48,13 @@ form.addEventListener('submit', (eventSubmit) => {
 const formulario = document.getElementById('form');
 formulario.addEventListener('submit', (event) => {
   event.preventDefault();
-  const nombre = document.getElementById('name').value
-  const email = document.getElementById('email').value
+  const nombre = document.getElementById('form_name').value
+  const email = document.getElementById('form_email').value
   const datos = {
     nombre: nombre,
     email: email,
   };
-  fetch('https://dawm-2925a-default-rtdb.firebaseio.com/Collection,json', {
+  fetch('https://dawm-2925a-default-rtdb.firebaseio.com/Collection.json', {
     method: 'POST',
     body: JSON.stringify(datos),
     headers: {
