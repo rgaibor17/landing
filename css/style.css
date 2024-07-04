@@ -324,7 +324,7 @@ a {
       content: "";
       width: 255px;
       height: 217px;
-      background-image: url("../images/dots-green.svg");
+      background-image: url("../images/dots-light.svg");
       background-size: contain;
       background-repeat: no-repeat;
       -webkit-transform: translate(-40%, -40%);
