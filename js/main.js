@@ -42,11 +42,10 @@ formulario.addEventListener('submit', (event) => {
 
 /* Vaciar el contenido del formulario al recargar la página */
 
-window.addEventListener("DOMContentLoaded", loaded);
 let loaded = ( eventLoaded ) => {
-  window.alert("landing page loaded");
   formulario.getElementById("form").reset();
 }
+window.addEventListener("DOMContentLoaded", loaded);
 
 /*let loaded = ( eventLoaded ) => {
   
