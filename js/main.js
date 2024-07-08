@@ -43,7 +43,7 @@ formulario.addEventListener('submit', (event) => {
 /* Vaciar el contenido del formulario al recargar la página */
 
 let loaded = ( eventLoaded ) => {
-  formulario.getElementById("form").reset();
+  document.getElementById("form").reset();
 }
 window.addEventListener("DOMContentLoaded", loaded);
 
